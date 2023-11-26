@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgba(52, 97, 53, 1);
+    color: #ffff;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+header img {
+    width: 50px;
+}
+
+input button {
+    margin-top: 20px;
+    margin-left: 700px;
+
+}
+
+input {
+    width: 400px;
+    height: 20px;
+}
+
+button{
+    width: 100px;
+    height: 20px;
+
+    background-color: black;
+    color: #ffff;
+}
+
+.lista-maquinas1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 20px;
+
+    
+}
+
+.lista-maquinas2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+    margin-top: 20px;
+}
+
+.info1, .info2, .info3, .info4, .info5, .info6 {
+    background-color: rgba(236, 251, 220, 1);
+    margin: 10px;
+    width: 350px;
+}
+
